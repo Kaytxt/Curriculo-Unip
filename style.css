@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+li{
+    font-size: 20px;
+}
+h2{
+    font-size: 25px;
+}
+
+p{
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 19px;
+}
+
+.secoes-habilidades-cursos {
+    display: flex; 
+    justify-content: space-around; 
+    width: 80%;
+    margin-top: 30px; 
+    text-align: left; 
+}
+
+.secao-habilidades-conteudo-principal,
+.secao-cursos-conteudo-principal {
+    width: 45%; 
+    padding: 0 10px;
+}
+
+.separador-vertical-central {
+    width: 1px; 
+    height: auto; 
+    background-color: white; 
+    margin: 0 20px; 
+}
+
+.separador-vertical-central {
+    width: 1px; 
+    height: auto; 
+    background-color: #008000; 
+    margin: 0 20px; 
+}
+
+.separador {
+    border: none; 
+    height: 1px; 
+    background-color: #008000; 
+    width: 90%; 
+    margin: 20px 0; 
+}
+
+
+.faixa-lateral {
+    background-color: green;
+    width: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faixa-lateral h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.secao-habilidades {
+    margin-top: 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.secao-habilidades h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.icones-habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icones-habilidades img {
+    width: 50px;
+    height: auto;
+}
+
+.conteudo-principal {
+    flex-grow: 1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.full-stack {
+    color: green;
+}
